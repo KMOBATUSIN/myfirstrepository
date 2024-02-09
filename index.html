@@ -2,33 +2,56 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Bio</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Student Bio</h1>
-    </header>
-    <div class="container">
-        <section id="mainbio">
-            <h2>Kerona Morris-Obatusin</h2>
-            <img id="bioimage" src="developerstudent.JPG" alt="student image">
+    <!--Navbar code goes here in the header section-->
+    
+        <nav>
+            <h1>Welcome to My Page</h1>
+            <ul id="Navlink">
+              <li><a href="#C1">About Me</a></li>
+              <li><a href="#C2">Work</a></li>
+              <li><a href="#C3">Contact</a></li>
+            </ul> 
+          </nav>
+    
 
+    <!--Flex box section with data goes here-->
+    <div id="column" class="flex">
+        <div id="img" class="flexbox">
+        <img id="bioimage" src="images/abstractgold.jpg"alt="Paint peeling">
+         </div>
+         
+         
+        <div id="mainbio" class="flexbox">
+            <h2 id="C1">About Me</h2>
             <p>Hi everyone, I'm Kerona Morris and I'm learning web development.</p>
             <p>I am a Jamaican who resides in Calgary, Alberta.</p>
             <p>I enjoy sports and almost all things outdoors</p>
             <p>Looking forward to this new chapter in my life.</p>
             <p>Cheers!</p>
-        </section>
+        </div>
 
-        <section id="contactinfo">
-            <h2>Contact Info</h2>
+        <div class="flexbox">
+            <h2 id="C2">Work</h2>
+            <img class="showoff" src="images/barbieone.jpg"alt="First Barbie">
+            <img class="showoff" src="images/beachja.jpg"alt="Beach in Ja">
+            <img class="showoff" src="images/basketlight.jpg"alt="Basket Lights">
+            <img class="showoff" src="images/mountain.jpg"alt="Mountain">
+        </div>
+        
+
+        <div id="contactinfo" class="flexbox">
+            <h2 id="C3">Contact Info</h2>
             <ul>
                 <li><strong>Email:</strong><a href="#">kmobatusin@gmail.com</a></li>
                 <li><strong>Github:</strong><a href="#">kmobatusin</a></li>
                 <li><strong>Portfolio:</strong><a href="#">coming soon</a></li>
             </ul>
-        </section>
+        </div>
     </div>
     
 </body>
