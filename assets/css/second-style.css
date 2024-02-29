@@ -1,0 +1,37 @@
+body{margin:0; 
+    padding:0;
+    background-color: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #333333;
+}
+
+header{background-color: #333333;} 
+
+h1{color: #eee;
+    font-size:28px; 
+    text-align: center; 
+    margin:0;
+    padding:10px;
+}   
+
+#container{margin:1024 auto;}
+
+h2{font-size: 24px; 
+}
+
+#bioimage{float: left; 
+    width: 200px; 
+    height: 200px; 
+    margin: 1px 30px;
+}    
+
+#mainbio{float: left; 
+    width: 70%;
+} 
+
+#contactinfo{float:left; 
+    width: 30%; 
+    line-height: 1.5;
+}
+
+a{color:#d21034;}
