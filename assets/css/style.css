@@ -1,0 +1,146 @@
+body{margin:0; 
+    padding:0;
+    color: black;
+    background-color: gray; 
+    
+    
+}
+/* style for the navbar, use position:fixed if you want the navbar to stay as you scroll in the future*/
+nav{background-color:rgb(29, 29, 29);
+    margin-bottom: 0;
+    } 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    }
+
+
+
+ li  {
+    display: block;
+    color:#D6AD60;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    float:right;
+  } 
+  a {color:#D6AD60;
+    text-decoration: none;
+  }
+
+
+ li :hover {
+    background-color: grey;
+    
+  }
+  
+
+/* style for the heading*/
+h1{color: #D6AD60;
+    font-size:28px; 
+    text-align: center; 
+    margin:0;
+    padding:10px;
+}   
+
+/* style for chapter/ heading 2*/
+h2{font-size: 24px; 
+    float: left;
+    font-family: fantasy;
+    margin-left: 2%;
+}
+
+/* style for the image*/
+#bioimage{ 
+    max-width: 100%;
+    height:auto ;
+    object-fit:contain;
+    display: block;
+    margin: 0 auto;
+       
+}    
+
+#mainbio{ margin-top: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
+    
+    
+} 
+/*style for portfolio image links*/
+.showoff{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    margin: 10px;
+    padding:5px;
+    transition: 0.3s;
+
+}
+
+.showoff:hover{
+  transform: scale(1.1);
+
+}
+
+#contactinfo{
+    line-height: 1.5;
+    display: inline;
+}
+
+
+
+.flexbox {
+    padding:0;
+    margin:5px; 
+    color: black;
+    text-align:end;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+   
+.flex {
+    display: flex; 
+    padding: 0; 
+    margin: 0;
+}
+
+#column {
+    flex-direction: column;
+}
+
+/*media queries*/
+@media screen and (min-width: 481px) and (max-width:480px) {
+    body {
+      background-color: grey;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width:768px) {
+    body {
+      background-color:rgb(145, 144, 144);
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width:1024px) {
+    body {
+      background-color: rgb(177, 177, 177);
+    }
+  }
+
+  @media screen and (min-width: 1025px) and (max-width:1200px) {
+    body {
+      background-color: rgb(194, 193, 193);
+    }
+  }
+
+  @media screen and (min-width: 1201px) and (orientation:landscape) {
+    body {
+      background-color: grey;
+    }
+  }
