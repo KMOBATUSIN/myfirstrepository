@@ -2,10 +2,11 @@
 <html lang="en-us">
 <head>
     <title>Contact Us Form</title>
-    <link rel="stylesheet" type="text/css" href="css/contactstyle.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contactstyle.css">
 </head>
 <body>
-    <form>
+    <form action="contact-thankyou.html" method="POST">
+        <input type="hidden" name="apikey" value="0dec5415-a464-4987-b2d9-6d4cc717b550">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name">
         <label for="email">Email:</label>
@@ -13,8 +14,7 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message"></textarea>
         <input type="submit" value="Send">
-        <form action="https://api.web3forms.com/submit" method="POST"></form>
-        <input type="hidden" name="apikey" value="0dec5415-a464-4987-b2d9-6d4cc717b550">
+
     </form>
 </body>
 </html>
